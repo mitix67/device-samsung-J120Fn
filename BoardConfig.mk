@@ -51,6 +51,9 @@ TARGET_CUSTOM_DTBTOOL := dtbhtoolExynos
 TARGET_KERNEL_ARCH := arm
 TARGET_KERNEL_HEADER_ARCH := arm
 
+# USB
+TARGET_USES_LEGACY_ADB_INTERFACE := true
+
 # Kernel config
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := arm-linux-androideabi-
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-linux-androideabi-4.9/bin
