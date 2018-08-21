@@ -188,7 +188,7 @@ endif
 BOARD_SECCOMP_POLICY += $(DEVICE_PATH)/seccomp
 
 # SELinux
-BOARD_SEPOLICY_DIRS := $(DEVICE_PATH)/sepolicy
+# BOARD_SEPOLICY_DIRS := $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
 -include vendor/samsung/o5prolte/BoardConfigVendor.mk
