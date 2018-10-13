@@ -15,7 +15,10 @@
 #
 
 
-DEVICE_PATH := device/samsung/o5prolte
+DEVICE_PATH := device/samsung/j120FN
+
+$(shell mkdir -p $(OUT)/obj/SHARED_LIBRARIES/libril_intermediates)
+$(shell touch $(OUT)/obj/SHARED_LIBRARIES/libril_intermediates/export_includes)
 
 # Include path
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include
@@ -197,4 +200,4 @@ BOARD_SECCOMP_POLICY += $(DEVICE_PATH)/seccomp
 # BOARD_SEPOLICY_DIRS := $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
--include vendor/samsung/o5prolte/BoardConfigVendor.mk
+-include vendor/samsung/j120FN/BoardConfigVendor.mk

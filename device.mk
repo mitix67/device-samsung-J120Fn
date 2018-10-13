@@ -16,7 +16,7 @@
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
-DEVICE_PATH := device/samsung/o5prolte
+DEVICE_PATH := device/samsung/j120FN
 
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
@@ -25,8 +25,8 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Boot animation
-TARGET_SCREEN_WIDTH := 720
-TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 480
+TARGET_SCREEN_HEIGHT := 854
 TARGET_BOOTANIMATION_HALF_RES := true
 
 # Bluetooth
@@ -226,4 +226,4 @@ $(call inherit-product, hardware/samsung_slsi-cm/exynos3475/exynos3475.mk)
 $(call inherit-product, hardware/samsung_slsi-cm/exynos5/exynos5.mk)
 
 # call the proprietary setup
-$(call inherit-product, vendor/samsung/o5prolte/o5prolte-vendor.mk)
+$(call inherit-product, vendor/samsung/j120FN/j120FN-vendor.mk)
