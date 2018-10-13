@@ -1,8 +1,8 @@
-Copyright (c) 2018 - Aryan Kedare
+Copyright (c) 2018 - Mateusz Burzynski
 
-Device configuration for Samsung ON5 
+Device configuration for Samsung J1 2016 
 ========================================
-Samsung (codenamed _"on5lte"_) is mid-range budget smartphone from Samsung.
+Samsung (codenamed _"j120FN"_) is mid-range budget smartphone from Samsung.
 
 ## Device specifications
 
@@ -11,7 +11,7 @@ Samsung (codenamed _"on5lte"_) is mid-range budget smartphone from Samsung.
 | SoC          | Exynos 3475 Quad                                |
 | CPU          | Quad-core 1.3 GHz Cortex-A7                     |
 | GPU          | Mali-T760MP2                                    |
-| Memory       | 1.5 GB RAM                                      |
+| Memory       | 1 GB RAM                                      |
 | Shipped Android version | 5.1/6.0.1/7.1.1                      |
 | Storage      | microSD, up to 256 GB (dedicated slot)          |
 | Battery      | Removable Li-Ion 2600 mAh battery               |
